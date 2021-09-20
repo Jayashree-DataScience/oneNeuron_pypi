@@ -14,7 +14,7 @@ setuptools.setup(
     description="This is an implementation of Perceptron",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{USER_NAME}/{PROJECT_NAME",
+    url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
     project_urls={
         "Bug Tracker": "https://github.com/{USER_NAME}/{PROJECT_NAME}/issues",
     },
@@ -28,6 +28,7 @@ setuptools.setup(
     python_requires=">=3.7",
     install_requires=[
         "numpy",
-        "tqdm"
+        "tqdm" 
+    ]
 
 )
